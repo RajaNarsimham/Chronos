@@ -1,4 +1,5 @@
 # Chronos
+<<<<<<< HEAD
 
 This project predicts timeseries metrics by encoding them into image sequences for generative diffusion models. It converts multiple aligned timeseries datasets into frames (with metrics as pixel bands), feeds K past frames as input, and generates future frames via sampling (e.g., 50 denoising steps). The probabilistic nature allows estimating uncertainty in predictions.
 
@@ -43,3 +44,6 @@ Reconstruct: Use `src/timeseries_reconstructor.py` to convert predicted frames b
 ## Fine-tuning
 
 Implement fine-tuning in model scripts with your frame datasets.
+=======
+Chronos Appplication
+>>>>>>> 29baa784d10555331d6b8fbbd4d456948a4097e0
